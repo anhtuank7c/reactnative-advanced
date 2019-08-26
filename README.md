@@ -12,29 +12,29 @@ Video: [Navigate to Native from ReactNative in 5 simple steps](https://youtu.be/
 
 ### Android:
 
-* 1) Create a new Activity
+* Create a new Activity
 
-* 2) Write a Native Module
+* Write a Native Module
 
-* 3) Register native module to MainApplication
+* Register native module to MainApplication
 
-* 4) Write ReactMethod which start Activity we created earlier
+* Write ReactMethod which start Activity we created earlier
 
-* 5) Finish current activity to go back to React Native
+* Finish current activity to go back to React Native
 
   
 
 ### iOS:
 
-* 1) Create a new UIViewController
+* Create a new UIViewController
 
-* 2) Modify AppDelegate to use UINavigationController
+* Modify AppDelegate to use UINavigationController
 
-* 3) Write native module
+* Write native module
 
-* 4) write ReactMethod which use the navigator to pushViewController
+* Write ReactMethod which use the navigator to pushViewController
 
-* 5) Pop navigator to go back to React Native
+* Pop navigator to go back to React Native
 
   
 Github: https://github.com/anhtuank7c/reactnative-advanced
