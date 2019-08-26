@@ -2,12 +2,14 @@ import React from 'react';
 import {
   Button,
   View,
-  Text
+  Text,
+  NativeModules
 } from 'react-native';
 
+const Communicator = NativeModules.ReactCommunicator
 export default () => {
   const onNavigate = () => {
-    // code here
+    Communicator.navigateToNative()
   }
 
   return (
